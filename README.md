@@ -1,6 +1,6 @@
 # RT/RW Administration App
 
-Aplikasi administrasi RT/RW berbasis web (React & Express/MongoDB lokal).
+Aplikasi administrasi RT/RW berbasis web menggunakan React untuk frontend dan Express/MongoDB untuk backend lokal.
 
 ## Struktur Proyek
 
@@ -25,17 +25,17 @@ rt-rw-admin-app/
 └─ README.md
 ```
 
-## Cara Setup
+## Cara Instalasi & Menjalankan
 
 ### Backend (server)
-1. Buka folder `server`
-2. Salin `.env.example` ke `.env` dan pastikan URI MongoDB sudah benar
+1. Masuk ke folder `server`
+2. Salin `.env.example` menjadi `.env` dan isi URI MongoDB Anda di dalamnya
 3. Jalankan: `npm install`
 4. Pastikan MongoDB lokal sudah berjalan
 5. Jalankan server: `npm start`
 
 ### Frontend (client)
-1. Buka folder `client`
+1. Masuk ke folder `client`
 2. Jalankan: `npm install`
 3. Jalankan React: `npm start`
 
@@ -44,9 +44,16 @@ rt-rw-admin-app/
 - Backend API: `http://localhost:5000/api`
 
 ## Fitur
-- Data Warga (CRUD)
-- Form input & data dinamis
+- CRUD Data Warga
+- Upload foto warga
+- Form input dinamis
 - Database MongoDB lokal
 
 ## Pengembangan
-- Untuk menambah fitur lain (UMKM, Hunian, Bantuan, dll), duplikasi pola model, route, komponen, dan API sesuai kebutuhan.
+Untuk menambah fitur lain (UMKM, Hunian, Bantuan, dsb), duplikasi pola model, route, komponen, dan API sesuai kebutuhan.
+
+## Kontribusi
+Silakan fork dan buat pull request untuk kontribusi atau penambahan fitur baru.
+
+## Lisensi
+Proyek ini dilisensikan di bawah MIT License.
